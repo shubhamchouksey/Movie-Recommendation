@@ -41,3 +41,9 @@ The other advantage is that there are generally fewer things that you're trying 
 It's also harder to game the system. So, we talked about how easy it is to game a user-based collaborative filtering approach by just creating some fake users that like a bunch of popular stuff and then the thing you're trying to promote. With item-based collaborative filtering that becomes much more difficult. You have to game the system into thinking there are relationships between items, and since you probably don't have the capability to create fake items with fake ties to other items based on many, many other users, it's a lot harder to game an item-based collaborative filtering system, which is a good thing. 
 
 While I'm on the topic of gaming the system, another important thing is to make sure that people are voting with their money. A general technique for avoiding shilling attacks or people trying to game your recommender system, is to make sure that the signal behavior is based on people actually spending money. So, you're always going to get better and more reliable results when you base recommendations on what people actually bought, as opposed to what they viewed or what they clicked on, okay?
+
+## Steps to run project:
+
+1. Hit the green button and clone this repos
+2. See [Notebook 1](): Movie_Recommender.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was similarity using technique called pearson-coorelation.
+3. See [Notebook 2](): KNNRecommendation.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was KNN machine learning alogorithm using metric called cosine distance.
