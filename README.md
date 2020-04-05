@@ -44,10 +44,12 @@ While I'm on the topic of gaming the system, another important thing is to make 
 
 ## Dataset
 
-we're going to be using some real movie rating data from the GroupLens project. GroupLens.org provides real movie ratings data, by real people who are using the [MovieLens.org]() website to rate movies and get recommendations back for new movies that they want to watch.
+we're going to be using some real movie rating data from the GroupLens project. GroupLens.org provides real movie ratings data, by real people who are using the [MovieLens.org](https://movielens.org/) website to rate movies and get recommendations back for new movies that they want to watch.
 
 ## Steps to run project:
 
 1. Hit the green button and clone this repo.
 2. See [Notebook 1](): Movie_Recommender.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was similarity using technique called pearson-coorelation.
 3. See [Notebook 2](): KNNRecommendation.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was KNN machine learning alogorithm using metric called cosine distance.
+
+
