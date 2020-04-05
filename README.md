@@ -42,8 +42,12 @@ It's also harder to game the system. So, we talked about how easy it is to game 
 
 While I'm on the topic of gaming the system, another important thing is to make sure that people are voting with their money. A general technique for avoiding shilling attacks or people trying to game your recommender system, is to make sure that the signal behavior is based on people actually spending money. So, you're always going to get better and more reliable results when you base recommendations on what people actually bought, as opposed to what they viewed or what they clicked on, okay?
 
+## Dataset
+
+we're going to be using some real movie rating data from the GroupLens project. GroupLens.org provides real movie ratings data, by real people who are using the [MovieLens.org]() website to rate movies and get recommendations back for new movies that they want to watch.
+
 ## Steps to run project:
 
-1. Hit the green button and clone this repos
+1. Hit the green button and clone this repo.
 2. See [Notebook 1](): Movie_Recommender.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was similarity using technique called pearson-coorelation.
 3. See [Notebook 2](): KNNRecommendation.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was KNN machine learning alogorithm using metric called cosine distance.
