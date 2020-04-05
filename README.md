@@ -49,7 +49,7 @@ we're going to be using some real movie rating data from the GroupLens project. 
 ## Steps to run project:
 
 1. Hit the green button and clone this repo.
-2. See [Notebook 1](): Movie_Recommender.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was similarity using technique called pearson-coorelation.
-3. See [Notebook 2](): KNNRecommendation.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was KNN machine learning alogorithm using metric called cosine distance.
+2. See [Notebook 1](https://github.com/shubhamchouksey/Movie-Recommendation/blob/master/Movie_Recommender.ipynb): Movie_Recommender.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was similarity using technique called pearson-coorelation.
+3. See [Notebook 2](https://github.com/shubhamchouksey/Movie-Recommendation/blob/master/KNNRecommendation.ipynb): KNNRecommendation.ipynb is used to recommend the movies to a user based on past user rating data, where method applied was KNN machine learning alogorithm using metric called cosine distance.
 
 
